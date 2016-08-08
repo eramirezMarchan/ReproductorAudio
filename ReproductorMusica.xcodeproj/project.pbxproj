@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60CD90F71D57C89B006729FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CD90F61D57C89B006729FD /* AppDelegate.swift */; };
+		60CD90F91D57C89B006729FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CD90F81D57C89B006729FD /* ViewController.swift */; };
+		60CD90FC1D57C89B006729FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CD90FA1D57C89B006729FD /* Main.storyboard */; };
+		60CD90FE1D57C89B006729FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60CD90FD1D57C89B006729FD /* Assets.xcassets */; };
+		60CD91011D57C89B006729FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CD90FF1D57C89B006729FD /* LaunchScreen.storyboard */; };
+		60CD91091D57DF70006729FD /* The Boys Are Back In Town.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 60CD91081D57DF70006729FD /* The Boys Are Back In Town.mp3 */; };
+		60CD910B1D57E111006729FD /* The Spirit Of Radio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 60CD910A1D57E111006729FD /* The Spirit Of Radio.mp3 */; };
+		60CD910D1D57E1F7006729FD /* About a girl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 60CD910C1D57E1F7006729FD /* About a girl.mp3 */; };
+		60CD910F1D57E22F006729FD /* Wasted Years.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 60CD910E1D57E22F006729FD /* Wasted Years.mp3 */; };
+		60CD91111D57E263006729FD /* YYZ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 60CD91101D57E263006729FD /* YYZ.mp3 */; };
+		60CD91131D57E2C6006729FD /* Jailbreak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CD91121D57E2C6006729FD /* Jailbreak.jpg */; };
+		60CD91151D57E2F6006729FD /* Permanent Waves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CD91141D57E2F6006729FD /* Permanent Waves.jpg */; };
+		60CD91171D57E34A006729FD /* Unplugged.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CD91161D57E34A006729FD /* Unplugged.jpg */; };
+		60CD91191D57E396006729FD /* Somewhere in Time.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CD91181D57E396006729FD /* Somewhere in Time.jpg */; };
+		60CD911B1D57E3D7006729FD /* Moving Pictures.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CD911A1D57E3D7006729FD /* Moving Pictures.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60CD90F31D57C89B006729FD /* ReproductorMusica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReproductorMusica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CD90F61D57C89B006729FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60CD90F81D57C89B006729FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60CD90FB1D57C89B006729FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60CD90FD1D57C89B006729FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60CD91001D57C89B006729FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60CD91021D57C89B006729FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60CD91081D57DF70006729FD /* The Boys Are Back In Town.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Boys Are Back In Town.mp3"; sourceTree = "<group>"; };
+		60CD910A1D57E111006729FD /* The Spirit Of Radio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Spirit Of Radio.mp3"; sourceTree = "<group>"; };
+		60CD910C1D57E1F7006729FD /* About a girl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "About a girl.mp3"; sourceTree = "<group>"; };
+		60CD910E1D57E22F006729FD /* Wasted Years.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wasted Years.mp3"; sourceTree = "<group>"; };
+		60CD91101D57E263006729FD /* YYZ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YYZ.mp3; sourceTree = "<group>"; };
+		60CD91121D57E2C6006729FD /* Jailbreak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jailbreak.jpg; sourceTree = "<group>"; };
+		60CD91141D57E2F6006729FD /* Permanent Waves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Permanent Waves.jpg"; sourceTree = "<group>"; };
+		60CD91161D57E34A006729FD /* Unplugged.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unplugged.jpg; sourceTree = "<group>"; };
+		60CD91181D57E396006729FD /* Somewhere in Time.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Somewhere in Time.jpg"; sourceTree = "<group>"; };
+		60CD911A1D57E3D7006729FD /* Moving Pictures.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Moving Pictures.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60CD90F01D57C89B006729FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60CD90EA1D57C89B006729FD = {
+			isa = PBXGroup;
+			children = (
+				60CD90F51D57C89B006729FD /* ReproductorMusica */,
+				60CD90F41D57C89B006729FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60CD90F41D57C89B006729FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60CD90F31D57C89B006729FD /* ReproductorMusica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60CD90F51D57C89B006729FD /* ReproductorMusica */ = {
+			isa = PBXGroup;
+			children = (
+				60CD91081D57DF70006729FD /* The Boys Are Back In Town.mp3 */,
+				60CD910A1D57E111006729FD /* The Spirit Of Radio.mp3 */,
+				60CD910C1D57E1F7006729FD /* About a girl.mp3 */,
+				60CD910E1D57E22F006729FD /* Wasted Years.mp3 */,
+				60CD91101D57E263006729FD /* YYZ.mp3 */,
+				60CD91121D57E2C6006729FD /* Jailbreak.jpg */,
+				60CD91141D57E2F6006729FD /* Permanent Waves.jpg */,
+				60CD91161D57E34A006729FD /* Unplugged.jpg */,
+				60CD91181D57E396006729FD /* Somewhere in Time.jpg */,
+				60CD911A1D57E3D7006729FD /* Moving Pictures.jpg */,
+				60CD90F61D57C89B006729FD /* AppDelegate.swift */,
+				60CD90F81D57C89B006729FD /* ViewController.swift */,
+				60CD90FA1D57C89B006729FD /* Main.storyboard */,
+				60CD90FD1D57C89B006729FD /* Assets.xcassets */,
+				60CD90FF1D57C89B006729FD /* LaunchScreen.storyboard */,
+				60CD91021D57C89B006729FD /* Info.plist */,
+			);
+			path = ReproductorMusica;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60CD90F21D57C89B006729FD /* ReproductorMusica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60CD91051D57C89B006729FD /* Build configuration list for PBXNativeTarget "ReproductorMusica" */;
+			buildPhases = (
+				60CD90EF1D57C89B006729FD /* Sources */,
+				60CD90F01D57C89B006729FD /* Frameworks */,
+				60CD90F11D57C89B006729FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReproductorMusica;
+			productName = ReproductorMusica;
+			productReference = 60CD90F31D57C89B006729FD /* ReproductorMusica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60CD90EB1D57C89B006729FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ERM;
+				TargetAttributes = {
+					60CD90F21D57C89B006729FD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 60CD90EE1D57C89B006729FD /* Build configuration list for PBXProject "ReproductorMusica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60CD90EA1D57C89B006729FD;
+			productRefGroup = 60CD90F41D57C89B006729FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60CD90F21D57C89B006729FD /* ReproductorMusica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60CD90F11D57C89B006729FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CD911B1D57E3D7006729FD /* Moving Pictures.jpg in Resources */,
+				60CD91151D57E2F6006729FD /* Permanent Waves.jpg in Resources */,
+				60CD91191D57E396006729FD /* Somewhere in Time.jpg in Resources */,
+				60CD91011D57C89B006729FD /* LaunchScreen.storyboard in Resources */,
+				60CD91111D57E263006729FD /* YYZ.mp3 in Resources */,
+				60CD91131D57E2C6006729FD /* Jailbreak.jpg in Resources */,
+				60CD91091D57DF70006729FD /* The Boys Are Back In Town.mp3 in Resources */,
+				60CD91171D57E34A006729FD /* Unplugged.jpg in Resources */,
+				60CD910F1D57E22F006729FD /* Wasted Years.mp3 in Resources */,
+				60CD910D1D57E1F7006729FD /* About a girl.mp3 in Resources */,
+				60CD910B1D57E111006729FD /* The Spirit Of Radio.mp3 in Resources */,
+				60CD90FE1D57C89B006729FD /* Assets.xcassets in Resources */,
+				60CD90FC1D57C89B006729FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60CD90EF1D57C89B006729FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CD90F91D57C89B006729FD /* ViewController.swift in Sources */,
+				60CD90F71D57C89B006729FD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60CD90FA1D57C89B006729FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60CD90FB1D57C89B006729FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60CD90FF1D57C89B006729FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60CD91001D57C89B006729FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60CD91031D57C89B006729FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60CD91041D57C89B006729FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60CD91061D57C89B006729FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReproductorMusica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ERM.ReproductorMusica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		60CD91071D57C89B006729FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReproductorMusica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ERM.ReproductorMusica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60CD90EE1D57C89B006729FD /* Build configuration list for PBXProject "ReproductorMusica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CD91031D57C89B006729FD /* Debug */,
+				60CD91041D57C89B006729FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60CD91051D57C89B006729FD /* Build configuration list for PBXNativeTarget "ReproductorMusica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CD91061D57C89B006729FD /* Debug */,
+				60CD91071D57C89B006729FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60CD90EB1D57C89B006729FD /* Project object */;
+}
